@@ -2,6 +2,7 @@ import React from 'react';
 import Header from './components/Header';
 import EmployeeTable from './components/EmployeeTable';
 import SearchInput from './components/SearchInput';
+import Footer from './components/Footer';
 import './mainStyle.css';
 
 function App() {
@@ -11,7 +12,8 @@ function App() {
      <Header />
      <SearchInput />
      <EmployeeTable />
-     </div>
+     <Footer />
+      </div>
     </>
   );
 }

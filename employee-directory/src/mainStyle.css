@@ -24,3 +24,7 @@ body {
 input:focus::placeholder {
   color: transparent;
 }
+footer p {
+  font-size: .8rem;
+  color: #aeaeae;
+}
