@@ -18,3 +18,9 @@ An app that helps to view a company's entire employee directory to access their 
 - Search function is at WIP.
 
 ![Employee Directory App Screenshot](https://github.com/ssh1sharma/React-Employee-Directory/blob/master/employee-directory/src/dynamic-data-multiple-screenshot.JPG)
+
+### App's Final Screenshot:
+- The working App is ready! 
+
+![Employee Directory App Screenshot](https://github.com/ssh1sharma/React-Employee-Directory/blob/master/employee-directory/src/UI-final-screenshot.JPG)
+
