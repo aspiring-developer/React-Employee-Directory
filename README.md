@@ -12,3 +12,9 @@ An app that helps to view a company's entire employee directory to access their 
 - Multi data is at WIP.
 
 ![Employee Directory App Screenshot](https://github.com/ssh1sharma/React-Employee-Directory/blob/master/employee-directory/src/dynamic-data-single-screenshot.JPG)
+
+### Dynamic Multiple Data Screenshot:
+- The dynamic multiple data is available at this point. 
+- Search function is at WIP.
+
+![Employee Directory App Screenshot](https://github.com/ssh1sharma/React-Employee-Directory/blob/master/employee-directory/src/dynamic-data-multiple-screenshot.JPG)
