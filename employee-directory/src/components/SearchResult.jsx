@@ -1,11 +1,11 @@
 import React, {Component} from 'react';
 import SearchInput from './SearchInput';
-import EmployeeTable from './EmployeeTable';
+// import EmployeeTable from './EmployeeTable';
 import Api from '../Api';
 class SearchResult extends Component {
 state = {
   search: "",
-  result: [],
+  // result: [],
   resultDisplay: []
 };
  //Handling state
@@ -44,12 +44,12 @@ handleInputChange = event => {
       <th scope="col">Full Name</th>
       <th scope="col">Phone Number</th>
       <th scope="col">Email ID</th>
-      <th scope="col">Current Age</th>
+      <th scope="col">Position ID</th>
     </tr>
   </thead>
   
-  {this.state.resultDisplay && this.state.resultDisplay.map(employee => (
-    
+  {this.state.resultDisplay.map(employee => {
+    return ( <>
     <tbody>
     <tr key={employee.id.value}>
       <td><img src={employee.picture.thumbnail} alt="Employee Profile Thumbnail" /> </td>
@@ -59,15 +59,14 @@ handleInputChange = event => {
       <td>{employee.dob.age}</td>
     </tr>
     </tbody>
- ))}
-
-
-  </table>
-
-
- </div>
-
     </>
+ )
+ 
+  })}
+ 
+</table>
+</div>
+</>
   )
 }
 
