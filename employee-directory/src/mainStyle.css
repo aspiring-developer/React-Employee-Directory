@@ -28,3 +28,8 @@ footer p {
   font-size: .8rem;
   color: #aeaeae;
 }
+
+img {
+border-radius: 50%;
+border: 2px solid #eca24d
+}
