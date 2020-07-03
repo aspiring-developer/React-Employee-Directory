@@ -10,7 +10,7 @@ function EmployeeTable() {
       <th scope="col">Name</th>
       <th scope="col">Phone</th>
       <th scope="col">Email</th>
-      <th scope="col">Hire Date</th>
+      <th scope="col">Current Age</th>
     </tr>
   </thead>
   <tbody>
