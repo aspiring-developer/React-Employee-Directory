@@ -42,9 +42,9 @@ handleInputChange = event => {
     <tr>
     <th scope="col">Image</th>
       <th scope="col">Full Name</th>
-      <th scope="col">Phone Number</th>
-      <th scope="col">Email ID</th>
-      <th scope="col">Position ID</th>
+      <th scope="col">Phone</th>
+      <th scope="col">Email</th>
+      <th scope="col">Role ID</th>
     </tr>
   </thead>
   

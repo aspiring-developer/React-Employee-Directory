@@ -4,7 +4,7 @@ function SearchInput(props) {
   return (
 <>
 <div className="col searchInputColumn">
-<input type="text" value={props.val} name="search" id="search" placeholder="Search employee" className="form-control mr-sm-2" onChange={props.handler}/>
+<input type="text" value={props.val} name="search" id="search" placeholder="Search Name" className="form-control mr-sm-2" onChange={props.handler}/>
 </div>
 </>
   )}
