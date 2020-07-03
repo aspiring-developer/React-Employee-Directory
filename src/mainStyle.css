@@ -21,6 +21,7 @@ body {
   margin: 0;
   padding: 1rem;
   width:40%;
+  background-color: #f0f8ec;
 }
 
 input:focus::placeholder {
