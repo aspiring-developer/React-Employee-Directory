@@ -48,7 +48,6 @@ No contribution needed.
   │    └── robots.txt
   ├── src
   |    |── components 
-  │    │    |── EmployeeTable.jsx
   │    │    |── Footer.jsx 
   │    │    |── Header.jsx
   │    │    └── SearchInput.jsx
