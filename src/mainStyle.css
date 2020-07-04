@@ -2,55 +2,71 @@ body {
   background-color: #f6f6f6;
 }
 
-.headerColumn h1 {
-color: #494949;
-text-shadow: 2px 2px 4px #c5f8c5;}
 #root {
   background-color: #ffffff;
   margin: 0 auto;
- padding-bottom: 3rem;
- margin: 0 10vw 0 10vw;
+  padding-bottom: 3rem;
+  margin: 0 10vw 0 10vw;
 }
+
+.headerColumn h1 {
+  color: #494949;
+  text-shadow: 2px 2px 4px #c5f8c5;
+}
+
 .searchInputColumn {
   margin: 0 auto;
   text-align: center;
- display: flex;
- justify-content: center;
- margin: .5rem 0 1rem 0;
+  display: flex;
+  justify-content: center;
+  margin: .5rem 1rem 1rem 0;
 }
+
 .form-control {
   margin: 0;
   padding: 1rem;
-  width:40%;
+  width: 40%;
   background-color: #f0f8ec;
 }
 
 input:focus::placeholder {
   color: transparent;
 }
+
+img {
+  border-radius: 50%;
+  border: 2px solid #eca24d
+}
+
+.firstNameTh:hover {
+  Background-color: yellow;
+  cursor: pointer;
+}
+
+.firstNameTh:hover:after {
+  content: " (Sort it!)";
+  font-size: .7rem;
+  color: red;
+}
+
+tr {
+  background-color: #f6f6f6;
+  border: 1px solid #4e4d4d;
+}
+
+th, td {
+  border: 1px solid #ece4e4;
+}
+
+th:nth-child(2n) {
+  background-color: #edf5f8;
+}
+
+td:nth-child(2n) {
+  background-color: #edf5f8;
+}
+
 footer p {
   font-size: .8rem;
   color: #aeaeae;
 }
-
-img {
-border-radius: 50%;
-border: 2px solid #eca24d
-}
-tr {
-    background-color: #f6f6f6;
-    border: 1px solid #4e4d4d;
-}
-.searchInputColumn {
-  margin-bottom: 1rem;
-}
-th, td {
-  border: 1px solid #ece4e4;
-} 
-
-th:nth-child(2n) {
-  background-color:  #edf5f8;
- }
- td:nth-child(2n) {
-  background-color:  #edf5f8;
- }

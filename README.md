@@ -4,19 +4,19 @@ An app to view a company's entire employee directory to access their information
 ### Static UI Layout Screenshot:
 - The app building process was based on this static layout. Some modification was done during coding.
 
-![Employee Directory App Screenshot](https://github.com/ssh1sharma/React-Employee-Directory/blob/0c4db9460ed6371e56e2c3d0e29f72a49eb7cf54/src/static-layout-screenshot.JPG)
+![Employee Directory App Screenshot](https://github.com/ssh1sharma/React-Employee-Directory/public/blob/0c4db9460ed6371e56e2c3d0e29f72a49eb7cf54/src/static-layout-screenshot.JPG)
 
 ``` ################################################################## ```
 ### Dynamic Single Data Screenshot:
 - The dynamic single data was generated first, then worked further for multi-data access. 
 
-![Employee Directory App Screenshot](https://github.com/ssh1sharma/React-Employee-Directory/blob/0c4db9460ed6371e56e2c3d0e29f72a49eb7cf54/src/dynamic-data-single-screenshot.JPG)
+![Employee Directory App Screenshot](https://github.com/ssh1sharma/React-Employee-Directory/public/blob/0c4db9460ed6371e56e2c3d0e29f72a49eb7cf54/src/dynamic-data-single-screenshot.JPG)
 
 ``` ################################################################## ```
 
 ### App's UI Final Screenshot:
 
-![Employee Directory App Screenshot](https://github.com/ssh1sharma/React-Employee-Directory/blob/master/src/App-final-screenshot.JPG)
+![Employee Directory App Screenshot](https://github.com/ssh1sharma/React-Employee-Directory/public/blob/master/src/App-final-screenshot.JPG)
 
 ``` ################################################################## ```
 
